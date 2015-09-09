@@ -90,22 +90,29 @@ line-height: 35px;
   position: fixed;
   top:0px;
   width:100%;
-  font-size: 24px;
+  font-size: 14px;
   background-color:#ede7e5;
-
 }
-.panel
-{
-position: fixed;
-top:40px;
-right:0px;
-padding:55px 10px 20px 10px;
-display:none;
-background-color:#ede7e5;
-color:#f2653b;
-z-index:1000;
-width:100px;
-font-size: 20px;
+
+.menu{
+  float:right;
+  padding-right:25px;
+  color:black;"
+}
+
+.spacer{
+  padding:50px;
+  background:transparent;
+}
+
+.spacersmall{
+  padding:25px;
+  background:transparent;
+}
+
+.spacerbig{
+  padding:100px;
+  background:transparent;
 }
 
 .headliner{
@@ -117,6 +124,16 @@ font-size: 20px;
   border-width:5px;
   border-style: solid;
 
+}
+
+.darkblue{
+  background:#193261;
+
+}
+
+.footer{
+  background-color:#6d6d6d;
+  text-align: center;
 }
 
 .box{
@@ -180,17 +197,15 @@ font-size: 20px;
 
 #rokkin{
 					background-color: white;
-					height: 100%;
-					width: 100vw;
-					padding: 0;
+					height:100%;
+					width: 100%;
 					margin: 0;
 					overflow: visible;
 					position: fixed;
 					z-index: -1;
-					top: 0px;
+					top: 120px;
 					left:0px;
-					background-image: url("http://www.hdwallwide.com/wp-content/uploads/2014/10/live-concert-crowd-hd-wallpapers-1080p-hdwallwide-com.jpg");
-					responsive:true;
+					background-image: url("ThingFlat2.jpg");
         }
 .button {
           display: block;
@@ -198,13 +213,27 @@ font-size: 20px;
           vertical-align: middle;
           text-align: center;
           background: #f2653b;
-          font-size: 24px;
+          font-size: 32px;
           color:white;
           width:75%;
           height:60px;
           box-shadow: 4px 4px 4px #6d6d6d;
-          padding:15px;
+          padding:10px;
         }
+
+        .buttonblue {
+                  display: block;
+                  margin: auto;
+                  vertical-align: middle;
+                  text-align: center;
+                  background: #70abce;
+                  font-size: 32px;
+                  color:white;
+                  width:75%;
+                  height:60px;
+                  box-shadow: 4px 4px 4px #6d6d6d;
+                  padding:10px;
+                }
 
 .whitewash {
           display: block;
