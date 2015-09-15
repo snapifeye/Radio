@@ -141,7 +141,6 @@ line-height: 35px;
 .footer{
   background-color:#6d6d6d;
   text-align: center;
-  position:relative;
   bottom:0px;
   width:100%;
 }
@@ -213,7 +212,7 @@ line-height: 35px;
 					overflow: visible;
 					position: fixed;
 					z-index: -1;
-					top: 120px;
+					top: 200px;
 					left:0px;
 					background-image: url("ThingFlat2.jpg");
         }
@@ -272,15 +271,7 @@ line-height: 35px;
           height:auto !important;
           }
 
-.footer{
-  height:auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding:10px 10px 20px 10px;
-  background-color: #6d6d6d;
-  min-height: 60px;
 
-}
 
 .profilepic{
   max-width: 500px;
