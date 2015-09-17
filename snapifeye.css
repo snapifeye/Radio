@@ -39,7 +39,7 @@
 				 height:auto !important;
 			}
 			.dummy {
-				margin-top: 100%;
+				margin-top: 0%;
 			}
 			.smarty {
 				position: absolute;
@@ -49,23 +49,25 @@
 				right: 0;
 			}
 			.data-wrapper {
+				display:none;
 				position: absolute;
 				width: 100%;
 				height: auto;
 			}
 			.photo-meta-first-name,
 			.photo-meta-last-name {
+				display:none;
 				font-style: italic;
 				font-family: Helvetica;
 				text-transform: uppercase;
 				letter-spacing: 1px;
-				padding: 100px 25px;
 				color: #FFFFFF;
 				font-weight: 600;
 				font-size: 33px;
 				line-height: 35px;
 			}
 			.photo-question {
+				display:none;
 				font-style: italic;
 				font-family: Helvetica;
 				color: #FFFFFF;
@@ -74,6 +76,7 @@
 				line-height: 18px;
 			}
 			.event-hash-tag {
+				display:none;
 				position: absolute;
 				bottom: 200px;
 				right: 50px;
@@ -81,11 +84,6 @@
 				font-size: 36px;
 				line-height: 43px;
 				font-family: Helvetica;
-			}
-			.sidebar {
-			   position: relative;
-				 padding:25px;
-				 align:center;
 			}
 
 </style>

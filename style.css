@@ -120,6 +120,11 @@ line-height: 35px;
   background:transparent;
 }
 
+.spacerbig{
+  padding:2 00px;
+  background:transparent;
+}
+
 
 .headliner{
   padding-top: 10px;
@@ -204,6 +209,23 @@ line-height: 35px;
 
 }
 
+.boxNavy {
+
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+  border-style: solid;
+  border-color:white;
+  border-width: medium;
+  border-radius: 2px;
+  background-color:#193261;
+  width:75%;
+  height:auto;
+  padding:10px;
+
+}
+
 #rokkin{
 					background-color: white;
 					height:100%;
@@ -212,7 +234,7 @@ line-height: 35px;
 					overflow: visible;
 					position: fixed;
 					z-index: -1;
-					top: 200px;
+					top: 250px;
 					left:0px;
 					background-image: url("ThingFlat2.jpg");
         }
