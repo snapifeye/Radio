@@ -46,7 +46,7 @@ a:hover{
 }
 a:visited{
    text-decoration: underline/none;
-   color: #193261;
+   color: #6d6d6d;
    font-weight: bold/normal;
    /*make sure to change at least one thing from your a tag definition*/
 }
@@ -266,6 +266,20 @@ line-height: 35px;
           padding:10px;
                 }
 
+    .buttonnavy {
+          display: block;
+          margin: auto;
+          vertical-align: middle;
+          text-align: center;
+          background: #193261;
+          font-size: 32px;
+          color:white;
+          width:75%;
+          height:60px;
+          box-shadow: 4px 4px 4px #6d6d6d;
+          padding:10px;
+                              }
+
     .buttongreen {
           margin: auto;
           text-align: center;
@@ -321,6 +335,10 @@ line-height: 35px;
 .buttonblue {
           height:120px;
         }
+
+.buttonnavy {
+          height:120px;
+                }
 
         .menu{
           float:center;
