@@ -46,7 +46,7 @@ a:hover{
 }
 a:visited{
    text-decoration: underline/none;
-   color: #6d6d6d;
+   color: black;
    font-weight: bold/normal;
    /*make sure to change at least one thing from your a tag definition*/
 }
